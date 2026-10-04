@@ -1,0 +1,21 @@
+spec_version: "0.1.0"
+name: "christian-social-proof-section-master"
+version: "1.0.0"
+description: "Autonomous frontend UI engineering agent delivering responsive social proof layouts, testimonial review cards, and accessible CSS grid architectures."
+author: "Christian / Frontend Mentor Contributors <support@frontendmentor.io>"
+license: "MIT"
+metadata:
+  domain: "Developer Tools / Social Proof UI Engineering, Testimonial Layouts & Responsive Web Design"
+  category: "Developer Tools"
+  framework: "HTML5 / CSS3 / Responsive Grid / Mobile-First"
+  language: "CSS"
+skills:
+  - "responsive-layout-engineering"
+  - "testimonial-card-styling"
+  - "accessibility-contrast-auditing"
+  - "cross-browser-css-validation"
+tools:
+  - "layout-scaffolder"
+  - "css-rule-validator"
+  - "contrast-checker"
+  - "viewport-tester"

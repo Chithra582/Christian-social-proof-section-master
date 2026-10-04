@@ -1,0 +1,18 @@
+name: "layout-scaffolder"
+description: "Generates semantic HTML5 and CSS grid structures for testimonial and social proof review cards."
+input_schema:
+  type: object
+  properties:
+    section_title:
+      type: string
+      description: "Headline text for the social proof section."
+    card_count:
+      type: integer
+      description: "Number of testimonial cards to generate."
+    layout_style:
+      type: string
+      enum: ["staggered-grid", "linear-column", "carousel", "masonry"]
+      description: "Target visual layout arrangement."
+  required:
+    - section_title
+    - card_count

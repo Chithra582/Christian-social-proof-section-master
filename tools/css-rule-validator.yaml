@@ -1,0 +1,13 @@
+name: "css-rule-validator"
+description: "Validates CSS style declarations, custom properties, and responsive media query syntax."
+input_schema:
+  type: object
+  properties:
+    css_content:
+      type: string
+      description: "Raw CSS stylesheet content to parse and validate."
+    enforce_variables:
+      type: boolean
+      description: "Ensure colors and typography use CSS custom property tokens."
+  required:
+    - css_content

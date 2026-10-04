@@ -1,0 +1,14 @@
+name: "viewport-tester"
+description: "Simulates responsive viewport dimensions and detects layout shifts or horizontal scroll overflows."
+input_schema:
+  type: object
+  properties:
+    viewport_width:
+      type: integer
+      description: "Target viewport width in pixels to simulate."
+    viewport_height:
+      type: integer
+      description: "Target viewport height in pixels."
+  required:
+    - viewport_width
+    - viewport_height

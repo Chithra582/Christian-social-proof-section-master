@@ -1,0 +1,14 @@
+name: "contrast-checker"
+description: "Computes WCAG 2.1 color contrast ratios between text foreground and background color values."
+input_schema:
+  type: object
+  properties:
+    foreground_hex:
+      type: string
+      description: "Foreground text color in hexadecimal format."
+    background_hex:
+      type: string
+      description: "Background container color in hexadecimal format."
+  required:
+    - foreground_hex
+    - background_hex
